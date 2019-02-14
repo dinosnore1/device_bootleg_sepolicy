@@ -14,6 +14,5 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 
 ifneq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_SEPOLICY_DIRS += \
-    device/bootleg/sepolicy/qcom/common \
-    device/bootleg/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/bootleg/sepolicy/qcom/vendor
 endif
